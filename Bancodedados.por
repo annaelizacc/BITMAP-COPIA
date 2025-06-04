@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style (1).css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="pag1">
@@ -55,6 +55,10 @@
             <img class="a10" src="gallery-10.jpg" alt="">
             <img class="a11" src="gallery-11.jpg" alt="">
             <img class="a12" src="gallery-12.jpg" alt="">
+        </div>
+
+        <div class="btn2">
+            LOAD MORE IMAGES
         </div>
     </div>
 </body>
