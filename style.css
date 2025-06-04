@@ -133,41 +133,68 @@ header{
     padding: 0px 15px;
     margin-left: 5%;
     
+    
 }
 .a1{
     padding: 0px 15px;
 }
 .a2{
     padding: 0px 15px;
+    
 }
 .a3{
     padding: 0px 15px;
+    
 }
 .a4{
     padding: 0px 15px;
+    
 }
 .a5{
     padding: 0px 15px;
+    margin-top: 2%;
 }
 .a6{
     padding: 0px 15px;
+    
 }
 .a7{
     padding: 0px 15px;
+    
 }
 .a8{
     padding: 0px 15px;
+    
 }
 .a9{
     padding: 0px 15px;
+    margin-top: 2%;
+    
 }
 .a10{
     padding: 0px 15px;
+    
 }
 .a11{
     padding: 0px 15px;
+   
 }
 .a12{
     padding: 0px 15px;
+    
+}
+
+.btn2{
+    background-color: #FCDC00;
+    font-size: 15px;
+    height: 3vh;
+    width: 11vw;
+    border: 1%;
+    display: flex;
+    align-items: center;
+    margin-left: 800px;
+    margin-top: 7%;
+    padding: 1.2%;
+    font-weight: 600;
 }
 
