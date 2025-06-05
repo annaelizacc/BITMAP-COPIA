@@ -152,8 +152,6 @@ header{
     padding: 0px 35px;
     font-family: "Poppins", sans-serif;
    
-  
-   
    }
    #texto12{
     color: #222222;
@@ -164,7 +162,6 @@ header{
     padding: 0px 35px;
     font-family: "Poppins", sans-serif;
     
-   
    }
    #texto13{
     color: #222222;
@@ -172,11 +169,8 @@ header{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-   
     padding: 0px 35px;
     font-family: "Poppins", sans-serif;
-  
-    
    
    }
 
@@ -286,7 +280,7 @@ header{
 
 .ll{
     text-decoration: none;
-    color: #222222;
+    color: black;
 }
 
 #pag3{
@@ -339,7 +333,8 @@ header{
 }
 
 #pagina4{
-    height: 100vh;
+    height: 163vh;
+    background-color:white;
 }
 
 .wh{
@@ -420,5 +415,86 @@ header{
     font-weight: 600;
 }
 
+.insta{
+    display: flex;
+    justify-content: center;
+}
 
+.pag5{
+    height: 60vh;
+    background-color: #04091e;
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
 
+.About{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.Lorem{
+    color: #777777;
+    font-size: 30px;
+}
+
+.email-container {
+    display: inline-block;
+    overflow: hidden;
+    background-color: #04091e;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+
+.email-container input {
+    padding: 12px 16px;
+    border: none;
+    font-size: 16px;
+    width: 280px;
+    outline: none;
+    background-color: white;
+    color: #000;
+  }
+
+.email-container button {
+    background-color: #FCDC00;
+    border: none;
+    padding: 0 20px;
+    height: 42px;
+    cursor: pointer;
+    vertical-align: top;
+  }
+
+.email-container button::before {
+    content: "➤";
+    color: white;
+    font-size: 16px;
+  }
+
+.email-container button:hover {
+    background-color: #FCDC00
+  }
+
+.fa
+{
+    width: 20px;
+    height: 10vh;
+}
+.in 
+{
+     width: 20px;
+    height: 10vh;
+}
+.li 
+{
+     width: 20px;
+    height: 10vh;
+}
+.yo
+{
+     width: 20px;
+    height: 10vh;
+}
