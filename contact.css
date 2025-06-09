@@ -178,7 +178,13 @@ header{
 
 #pag2{
     height: 90vh;
+    width: 80%;
+    margin: auto;
+
 }
+
+#mapa { width: 100%;
+height:50%;}
 
 .email-container2 {
     display: inline-block;
@@ -197,32 +203,18 @@ header{
     color: #000;
 }
 
-
-
-.telefone{
+.icones{
+    height: 4vh;
     display: flex;
-    text-decoration: none;
-    color: #000;
-    
-}
-.envelope{
-    display: flex;
-    color: #000;
-    text-decoration: none;
-    
+    flex-direction: column;
+    margin-right: 98%;
 }
 
-.maior{
-    font-size: 16px;
-    line-height: 24px;
-    color: #222222;
-    font-weight: 300;
-    margin-bottom: 0px;
-}
-.menor{
-    font-size: 14px;
-    line-height: 24px;
-    padding: 2px 0px;
+
+
+.textos{
+    margin-left: 5%;
+    margin-top: -3%;
 }
 
 .email-container3 {
@@ -243,3 +235,9 @@ header{
     color: #000;
 }
 
+.espaco2{
+    height: 15vh;
+}
+.espaco3{
+    height: 8vh;
+}
