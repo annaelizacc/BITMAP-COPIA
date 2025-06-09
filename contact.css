@@ -178,7 +178,6 @@ header{
 
 #pag2{
     height: 90vh;
-
 }
 
 .email-container2 {
@@ -198,11 +197,49 @@ header{
     color: #000;
 }
 
-.email-container2 button {
-    background-color: #FCDC00;
-    border: none;
-    padding: 0 20px;
-    height: 42px;
-    cursor: pointer;
-    vertical-align: top;
+
+
+.telefone{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    
 }
+.envelope{
+    display: flex;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.maior{
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+.menor{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 2px 0px;
+}
+
+.email-container3 {
+    display: inline-block;
+    overflow: hidden;
+    background-color: #04091e;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.email-container3 input {
+    
+    border: none;
+    font-size: 16px;
+    width: 450px;
+    height: 15vh;
+    outline: none;
+    background-color: white;
+    color: #000;
+}
+
