@@ -6,6 +6,8 @@
 
 #pag1{
     background-image: url(banner-2.jpg);
+    background-color: rgb(0,0, 0, 0.5);
+    background-blend-mode: multiply;
     height: 92vh;
 }
 
