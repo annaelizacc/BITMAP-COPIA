@@ -5,10 +5,22 @@
 }
 
 #pag1{
-    background-image: url(banner-2.jpg);
-    background-color: rgb(0,0, 0, 0.5);
-    background-blend-mode: multiply;
-    height: 92vh;
+    background-image: url(home-banner.jpg.webp);
+    height: 50vh;
+}
+.services{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    padding: 8%;
+    font-weight: 800;
+}
+
+.hh{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: -7%;
 }
 
 .logo{
@@ -81,58 +93,242 @@ header{
     height: 2vh;
 }
 
-.titulo{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    color: white;
-    font-size: 70px;
-    justify-content: center;
+.pag5{
+    height: 60vh;
+    background-color: #04091e;
+    padding: 10%;
     display: flex;
-    text-align: center;
-    margin-top: 20%;
-}
-.texto2{
-    color: white;
-    margin-top: 1%;
-    font-size: 21px;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-}
-.btn1{
-    background-color: rgb(255, 255, 255);
-    font-size: 15px;
-    height: 4vh;
-    width: 8vw;
-    border: 1%;
-    display: flex;
-    align-items: center;
-    justify-content:center ;
-    margin-top: 2%;
-    margin-left: 46%;
+    flex-direction: row;
+    justify-content:space-between;
+    
 }
 
-.btn1:hover{
-    color: black;
+.About{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.Lorem{
+    color: #777777;
+    font-size: 30px;
+}
+
+.email-container {
+    display: inline-block;
+    overflow: hidden;
+    background-color: #04091e;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+
+.email-container input {
+    padding: 12px 16px;
+    border: none;
+    font-size: 16px;
+    width: 280px;
+    outline: none;
+    background-color: white;
+    color: #000;
+  }
+
+.email-container button {
     background-color: #FCDC00;
-    transition: 3s;
+    border: none;
+    padding: 0 20px;
+    height: 42px;
+    cursor: pointer;
+    vertical-align: top;
+  }
+
+.email-container button::before {
+    content: "➤";
+    color: white;
+    font-size: 16px;
+  }
+
+.email-container button:hover {
+    background-color: #FCDC00
+  }
+
+.fa
+{
+    width: 20px;
+    height: 10vh;
+}
+.in 
+{
+     width: 20px;
+    height: 10vh;
+}
+.li 
+{
+     width: 20px;
+    height: 10vh;
+}
+.yo
+{
+     width: 20px;
+    height: 10vh;
+}
+
+.mega{
+    height: 25%;
 }
 
 #pag2{
-    height:100vh;
+    height: 215.5vh;
+    width: 80%;
+    margin: auto;
+
 }
 
-.imagens{
+#mapa { width: 100%;
+height:50%;}
+
+.email-container2 {
+    width: 21vw;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: -11.5%;
+    height: 5vh;
+    
+}
+
+.email-container2 input {
+    padding: 12px 16px;
+    height: 5vh;
+    font-size: 16px;
+    width: 280px;
+    outline: none;
+    background-color: white;
+    color: #000;
+    border: 2px solid #eeeeee;
+}
+
+.icones{
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+    margin-right: 98%;
+}
+
+
+
+.textos{
+    margin-left: 5%;
+    margin-top: -3%;
+    width: 12%;
+}
+
+.email-container3 {
+   margin-top: -12.5%;
+    background-color: white;
+    margin-left: 50%;
+    
+    
+}
+
+.email-container3 input {
+    font-size: 16px;
+    width: 450px;
+    height: 12vh;
+    outline: none;
+    background-color: white;
+    color: #000;
+    border: 2px solid #eeeeee;
+}
+
+
+.espaco2{
+    height: 15vh;
+}
+.espaco3{
+    height: 8vh;
+}
+
+.email-container4 {
+    width: 21vw;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 1%;
+    
+}
+
+.email-container4 input {
+    padding: 12px 16px;
+   
+    font-size: 16px;
+    width: 280px;
+    outline: none;
+    background-color: white;
+    color: #000;
+    height: 5vh;
+    border: 2px solid #eeeeee;
+   
+}
+.email-container5 {
+    width: 21vw;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 1%;
+    border: #777777;
+}
+
+.email-container5 input {
+    padding: 12px 16px;
+    height: 5vh;
+    font-size: 16px;
+    width: 280px;
+    outline: none;
+    background-color: white;
+    color: #000;
+    border: 2px solid #eeeeee;
+}
+
+.insta{
     display: flex;
     justify-content: center;
-    margin-top: 4%;
+    
+}
+.btn3{
+    background-color: #FCDC00;
+    font-size: 15px;
+    height: 7vh;
+    width: 14vw;
+    border: 1%;
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 16.7%;
+    padding: 1.2%;
+    font-weight: 600;
+}
+.ll{
+    text-decoration: none;
+    color: black;
+}
+.es2{
+    height: 4%;
 }
 
-.festa{
-    padding: 0px 15px;
+.btn4{
+    background-color: #FCDC00;
+    font-size: 15px;
+    height: 4vh;
+    width: 9vw;
+    border: 1%;
+    display: flex;
+    align-items: center;
+    margin-left: 1050px;
+    margin-top: 1%;
+    padding: 1.2%;
+    font-weight: 600;
 }
-.escritorio{
-    padding: 0px 15px;
-}
-.churrasco{
-    padding: 0px 15px;
+.lm{
+    text-decoration: none;
+    color: black;
 }
