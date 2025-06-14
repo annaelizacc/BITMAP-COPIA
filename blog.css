@@ -5,7 +5,7 @@
 }
 
 #pag1{
-    background-image: url(banner-2.jpg.webp);
+    background-image: url(banner-2.jpg);
     background-color: rgb(0,0, 0, 0.5);
     background-blend-mode: multiply;
     height: 92vh;
@@ -119,6 +119,7 @@ header{
 
 #pag2{
     height:35vh;
+    background-color: #f9f9ff;
 }
 
 .imagens{
@@ -215,3 +216,332 @@ header{
     
 
 }
+
+.active{
+    text-decoration: none;
+    color: black;
+    margin-left:20% ;
+}
+.active2{
+    text-decoration: none;
+    color: black;
+}
+.actives {
+    text-decoration: none;
+    color: #FCDC00;
+}
+
+.active:hover {
+    color: #777777;
+    transition: 1s;
+}
+.text{
+    text-decoration: none;
+    color:#777777;
+    margin-left:20% ;
+    text-align: right;
+
+}
+
+.text:hover{
+    color: #FCDC00;
+    transition: 1s;
+}
+
+.blog1{
+    margin-left: 32%;
+    
+    margin-top: -11%;
+}
+
+#pag3{
+    height: 277.2vh;
+    background-color: #f9f9ff;
+}
+
+.lgnd{
+    margin-left: 32%;
+}
+.lgnd1{
+    margin-left: 32%;
+}
+.lgnd1:hover{
+    color: #FCDC00;
+    transition: 1s;
+}
+
+.btn2{
+    background: #ffffff;
+    font-size: 15px;
+    height: 4vh;
+    width: 8vw;
+    border: solid black 5%;
+    margin-top: 2%;
+    margin-left: 32%;
+    padding-top: 0.5%;
+    text-align: center;
+}
+
+.btn2:hover{
+    color: black;
+    background-color: #FCDC00;
+    transition: 1ms;
+}
+
+.blog2{
+    margin-left: 32%;
+    
+    margin-top: 0;
+}
+
+.esp{
+    height: 5vh;
+}
+
+.colunadireita{
+    margin-top: -135%;
+    padding-left: 63%;  
+    width: 80%;
+}
+
+.email-container2 {
+    width: 100%;
+    background-color: #FCDC00;
+    border-radius: 45px;
+    height: 4vh;
+    color: #f9f9ff;
+    text-align: center;  
+    margin-top: 10%;  
+    
+}
+
+.caixa{
+    background-color:transparent;
+    border: none;
+    padding-block: 5%;   
+    color: #f9f9ff;
+}
+
+.ft5{
+    margin-left: 30%;
+    margin-top: 10%;  
+
+}
+
+.charlie{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.senior{
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.boot{
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    color: #777777;
+}
+
+.cxsimples{
+    height: 4vh;
+    width: 90%;
+    background-color: #FCDC00;
+    color: white;
+    font-size: 30px;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;  
+}
+
+.quase1{
+    display: flex;
+    flex-direction: column;
+}
+
+.quase5{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.quase6{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-top: -280px;
+    font-size: 15px;
+
+}
+
+.es{
+    height: 6vh;
+}
+
+.li{
+    border: none;
+    border-top: 2px dotted #eee;
+    height: 1vh;
+}
+
+.li :hover{
+    color: #FCDC00;
+    transition: 1ms;
+}
+
+.quasinho{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #777777;
+    padding-top: 15px;
+    border: none;
+    border-top: 2px  dotted #eee;
+}
+
+.quasinho:hover{
+    color: #FCDC00;
+    transition: 1ms;
+}
+
+.here{
+    color: #777777;
+    text-align: center;
+}
+
+.email-container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.email-container4 input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    width: 150px;
+}
+
+.email-container4 button{
+    padding: 10px 15px;
+    background-color: #f1c40f;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius:  0 5px 5px 0;
+    cursor: pointer;
+}
+
+.aa{
+    display: inline-block;
+    border: 1px solid #eee;
+    background: #fff;
+    padding: 0px 13px;
+    margin-bottom: 8px;
+    transition: all 0.3s ease 0s;
+    color: #222222;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.aa:hover{
+    background-color: #FCDC00;
+
+    transition: all 0.3s ease 0s;
+}
+
+.pag5{
+    height: 60vh;
+    background-color: #04091e;
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+.About{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.Lorem{
+    color: #777777;
+    font-size: 30px;
+}
+
+.email-container {
+    display: inline-block;
+    overflow: hidden;
+    background-color: #04091e;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+
+.email-container input {
+    padding: 12px 16px;
+    border: none;
+    font-size: 16px;
+    width: 280px;
+    outline: none;
+    background-color: white;
+    color: #000;
+  }
+
+.email-container button {
+    background-color: #FCDC00;
+    border: none;
+    padding: 0 20px;
+    height: 42px;
+    cursor: pointer;
+    vertical-align: top;
+  }
+
+.email-container button::before {
+    content: "➤";
+    color: white;
+    font-size: 16px;
+  }
+
+.email-container button:hover {
+    background-color: #FCDC00
+  }
+
+.fa
+{
+    width: 20px;
+    height: 10vh;
+}
+.in 
+{
+     width: 20px;
+    height: 10vh;
+}
+.li 
+{
+     width: 20px;
+    height: 10vh;
+}
+.yo
+{
+     width: 20px;
+    height: 10vh;
+}
+
+.insta{
+    display: flex;
+    justify-content: center;
+    margin-top: 32%;
+}
+
